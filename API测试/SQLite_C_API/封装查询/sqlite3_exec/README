@@ -1,0 +1,20 @@
+Directory:
+.
+|-- README
+|-- mydb
+|-- mydb.c
+`-- mydb.db
+
+0 directories, 4 files
+
+#############################################
+
+Compile:
+$ gcc mydb.c -o mydb -lsqlite3
+
+#############################################
+
+Run:
+$ ./mydb mydb.db "select * from courses;"
+
+#############################################
